@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/textno"
+        android:textSize="12sp"
+        android:text="ni"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/textname"
+        android:textSize="12sp"
+        android:text="ni"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/textemail"
+        android:textSize="12sp"
+        android:text="ni"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/textadres"
+        android:textSize="12sp"
+        android:text="ni"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/textmobil"
+        android:textSize="12sp"
+        android:text="ni"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="updat"
+        android:id="@+id/update"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_margin="4dp"/>
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+
+        android:id="@+id/delete"
+        android:src="@android:drawable/ic_delete"
+        android:layout_margin="4dp"/>
+
+
+</LinearLayout>
